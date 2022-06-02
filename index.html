@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>N" Solutions.</title>
     <link href="./CSS/main.css" rel="stylesheet">
+    <script src="JS/JavaScript.js"></script>
   </head>
-  <body style="background-color: rgb(90, 90, 95) ;">
+  <body style="background-color: rgb(112, 112, 171) ;">
     
     
 <div class="container">
@@ -17,48 +18,49 @@
         <div class="calculadora">
 
 <div class="Visor">
-  <input type="text" placeholder="0" class="form control resultado" disabled="disabled>">
+  <input type="text" placeholder="0" class="form control resultado" id="Resultado" disabled="disabled>">
 </div>
        
         <div class="row">
-          <button type="button" class="btn btn-dark btn-lg font-wight-light clear">C</button>
-          <button type="button" class="btn btn-dark btn-lg font-wight-light">/</button>
-          <button type="button" class="btn btn-dark btn-lg font-wight-light">X</button>
+          <button type="button" onclick="calcular('acao', 'C')" class="btn btn-dark btn-lg font-wight-light clear" id="Clear2">C</button>
+          <button type="button" onclick="calcular('acao', '/')" class="btn btn-dark btn-lg font-wight-light">/</button>
+          <button type="button" onclick="calcular('acao', '*')" class="btn btn-dark btn-lg font-wight-light">X</button>
+
         </div>
 
         <div class="row">
-          <button type="button" class="btn btn-secondary btn-lg font-weight-light">7</button>
-          <button type="button" class="btn btn-secondary btn-lg font-weight-light">8</button>
-          <button type="button" class="btn btn-secondary btn-lg font-weight-light">9</button> 
-          <button type="button" class="btn btn-dark btn-lg font-weight-light">-</button> 
+          <button type="button" onclick="calcular('valor', 7)" id="Resultado" class="btn btn-secondary btn-lg font-weight-light">7</button>
+          <button type="button" onclick="calcular('valor', 8)" class="btn btn-secondary btn-lg font-weight-light">8</button>
+          <button type="button" onclick="calcular('valor', 9)" class="btn btn-secondary btn-lg font-weight-light">9</button> 
+          <button type="button" onclick="calcular('acao', '-')"class="btn btn-dark btn-lg font-weight-light">-</button> 
          </div>
 
         <div class="row">
-         <button type="button" class="btn btn-secondary btn-lg font-weight-light">4</button>
-         <button type="button" class="btn btn-secondary btn-lg font-weight-light">5</button>
-         <button type="button" class="btn btn-secondary btn-lg font-weight-light">6</button>
-         <button type="button" class="btn btn-dark btn-lg font-weight-light">+</button> 
+         <button type="button" onclick="calcular('valor', 4)" class="btn btn-secondary btn-lg font-weight-light">4</button>
+         <button type="button" onclick="calcular('valor', 5)" class="btn btn-secondary btn-lg font-weight-light">5</button>
+         <button type="button" onclick="calcular('valor', 6)" class="btn btn-secondary btn-lg font-weight-light">6</button>
+         <button type="button" onclick="calcular('acao', '+')"class="btn btn-dark btn-lg font-weight-light">+</button> 
        </div>
 
        <div class="row">
-        <button type="button" class="btn btn-secondary btn-lg font-weight-light">1</button>
-        <button type="button" class="btn btn-secondary btn-lg font-weight-light">2</button>
-        <button type="button" class="btn btn-secondary btn-lg font-weight-light">3</button>
-        <button type="button" class="btn btn-dark btn-lg enter">=</button> 
+        <button type="button" onclick="calcular('valor', 1)" class="btn btn-secondary btn-lg font-weight-light">1</button>
+        <button type="button" onclick="calcular('valor', 2)" class="btn btn-secondary btn-lg font-weight-light">2</button>
+        <button type="button" onclick="calcular('valor', 3)" class="btn btn-secondary btn-lg font-weight-light">3</button>
+        <button type="button" onclick="calcular('acao', '=')"class="btn btn-dark btn-lg enter">=</button> 
       </div>
 
       <div class="row" style="margin-top:-60px;">
-        <button type="button" class="btn btn-secondary btn-lg font-weight-light zero">0 </button>
-        <button type="button" class="btn btn-dark btn-lg font-weight-light"> .   </button>
+        <button type="button" onclick="calcular('valor', 0)" class="btn btn-secondary btn-lg font-weight-light zero">0 </button>
+        <button type="button" onclick="calcular('acao', '.')"class="btn btn-dark btn-lg font-weight-light"> .   </button>
       </div>
  
   <!--Fim da calculadora-->
   </div>
 
-  <!--Fim da col d-flex justofy...--> 
+  <!--Fim da col d-flex justify...--> 
   </div>
 
-  <!--Fim da Calculadora--> 
+  <!--Fim da Row--> 
   </div>
   
   
