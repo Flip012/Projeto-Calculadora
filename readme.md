@@ -7,16 +7,12 @@ Este é o meu primeiro projeto feito sozinho, usando as rescpetivas linguagens:
 ° BOOTSTRAP5; <br>
 ° JAVASCRIPT.
 
----------------------------------------------------------------- Meta: <br>
+---------------------------------------------------------------- Meta: 
 
-<<<<<<< Updated upstream
+
 1° Finalizar a estruturação HTML; (feito) <br>
-2° Finalizar a Estilização; (feito)<br>
-=======
-1° Finalizar a estruturação HTML; (feito)
-2° Finalizar a Estilização; (feito)
->>>>>>> Stashed changes
-3° Implementar interação. (feito)
+2° Finalizar a Estilização; (feito) <br>
+3° Implementar interação. (feito)<br>
 
 ---------------------------------------------------------------- Finalização: <br>
 
