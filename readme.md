@@ -1,6 +1,6 @@
 Hello, World!!
 
-Este é o meu primeiro projeto feito sozinho, usando as rescpetivas linguagens:
+Este é o meu primeiro projeto feito sozinho, usando as rescpetivas ferramentas:
 
 ° HTML5; <br>
 ° CSS3; <br>
