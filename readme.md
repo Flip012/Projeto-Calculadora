@@ -1,6 +1,6 @@
 Hello, World!!
 
-Este é o meu primeiro projeto feito sozinho, com pesquisas próprias e com as rescpetivas linguagens:
+Este é o meu primeiro projeto feito sozinho, usando as rescpetivas linguagens:
 
 ° HTML5;
 ° CSS3;
@@ -9,7 +9,7 @@ Este é o meu primeiro projeto feito sozinho, com pesquisas próprias e com as r
 
 ---------------------------------------------------------------- Meta:
 
-1° Finalizar a estruturação HTML; 
-2° Finalizar a Estilização;
-3° Implementar interação. 
+1° Finalizar a estruturação HTML; (feito)
+2° Finalizar a Estilização; (feito)
+3° Implementar interação. (feito)
 
