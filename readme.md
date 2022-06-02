@@ -2,14 +2,14 @@ Hello, World!!
 
 Este é o meu primeiro projeto feito sozinho, usando as rescpetivas linguagens:
 
-° HTML5;
-° CSS3;
-° BOOTSTRAP5;
+° HTML5; <br>
+° CSS3; <br>
+° BOOTSTRAP5; <br>
 ° JAVASCRIPT.
 
 ---------------------------------------------------------------- Meta:
 
-1° Finalizar a estruturação HTML; (feito)
-2° Finalizar a Estilização; (feito)
+1° Finalizar a estruturação HTML; (feito) <br>
+2° Finalizar a Estilização; (feito)<br>
 3° Implementar interação. (feito)
 
